@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -28,6 +29,45 @@
         <p>installed.</p>
         <h3>Enjoy coding! - Yeoman</h3>
       </div>
+
+
+<section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Contact Me<i class="fa fa-paper-plane-o"></i></h2>
+                </div>
+            </div>
+            <div id="map-canvas"></div>
+            <div class="row">
+                <form method="post" action="contact.php" name="contactform" id="contactform">
+                    <div class="col-md-6">
+                        <fieldset>
+                            <input name="name" type="text" id="name" size="30" placeholder="Name">
+                            <br>
+                            <input name="email" type="text" id="email" size="30" placeholder="Email">
+                            <br>
+                            <input name="phone" type="text" id="phone" size="30" placeholder="Phone">
+                            <br>
+                            <input name="human" type="text" id="human" size="30" placeholder="Prove your not a robot... What is 2+2?">
+                            <br>
+                        </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                        <fieldset>
+                            <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Message"></textarea>
+                        </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                        <fieldset>
+                            <button type="submit" class="btn btn-lg" id="submit" value="Submit">Send Message</button>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
     </div>
 
 
